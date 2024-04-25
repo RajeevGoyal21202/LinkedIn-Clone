@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.signup{
+    background-color: #f3f2f0;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    width: 60vw;
+    padding-top: 10px;
+}
+.header>img{
+    height: 40px;
+}
+.signtext{
+    text-align: center;
+    padding-left: 16px;
+    padding-right:16px;
+    padding-top: 24px ;
+    padding-bottom: 24px ; 
+}
+.signtext>p{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    display: flex;
+    justify-content: center ;
+    
+}
+.signup-box{
+    width: 400px;
+    height: 494px;
+    background-color:#ffff;
+}
+
+.email{
+    width: 350px;
+    height: 30px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.input-box2{
+    display: flex;
+    flex-direction: column;
+    padding-top:40px;
+    align-items: center;
+}
+.para{
+    text-align: center;
+    padding-top: 60px;
+}
+span{
+    color:#0a66c2;
+    font-weight:400 ;
+}
+.sign-button{
+    text-align: center;
+    padding-top: 20px;
+}
+.sign-button>button{
+    width: 350px;
+    height: 48px;
+    background-color:#0a66c2;
+    border-radius: 20px;
+    color:white;
+    font-size: 16px;
+
+}
+.or{
+    text-align: center;
+    padding-top: 34px       ;
+}
+.sign-in{
+    text-align: center;
+    padding-top: 33px;
+}
