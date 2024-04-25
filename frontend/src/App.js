@@ -11,6 +11,7 @@ import InvitationPage from "./pages/Invitation/InvitationPage";
 import InvitationSent from "./pages/Invitation/InvitationSent";
 import MessagePage from "./pages/messages/MessagePage";
 import NotificationPage from "./pages/notification/NotificationPage";
+import NotFound from "./pages/notFound";
 
 function App() {
   return (
@@ -25,8 +26,7 @@ function App() {
         <Route path="/invitation" element={<InvitationPage />}></Route>
         <Route path="/messaging" element={<MessagePage />}></Route>
         <Route path="/notification" element={<NotificationPage />}></Route>
-       
-
+        <Route path="*" element={<NotFound/>}/>
         <Route path="/invitationSent" element={<InvitationSent />}></Route>
 
         <Route path="/network" element={<Network />}></Route>

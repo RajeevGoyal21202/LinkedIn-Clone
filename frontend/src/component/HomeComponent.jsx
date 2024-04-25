@@ -66,8 +66,8 @@ const HomeComponent = () => {
     window.addEventListener("scroll", handleInfiniteScroll);
   }, []);
 
-  const posts = useSelector((state) => state.post.posts.data.posts);
-  console.log("posts", posts);
+  // const posts = useSelector((state) => state.post.posts.data.posts);
+  // console.log("posts", posts);
   const isLoading = useSelector((state) => state.post.isLoading);
   const error = useSelector((state) => state.post.error);
 
@@ -285,11 +285,11 @@ const HomeComponent = () => {
           <Stack>
             <div className="data-box">
               <div className="data">
-                {posts && posts?.map((post) => (
+                {/* {posts && posts?.map((post) => (
                   <>
                     <Card2 key={post._id} post={post} />
                   </>
-                ))}
+                ))} */}
               </div>
             </div>
           </Stack>
