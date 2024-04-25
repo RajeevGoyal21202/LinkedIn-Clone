@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 .outerNavbar {
@@ -20,8 +21,8 @@
 
 .logo {
     padding-left: 30px !important;
-    width: 102px !important;
     height: 26px !important;
+    width: 102px;
 }
 
 .body {
@@ -34,11 +35,9 @@
 .content {
     width: 320px;
     height: 480px !important;
-    /* display: flex;
     justify-content: center;
     padding-top: 48px;
     flex-direction: column;
-    background-color: green;  */
     
 }
 
@@ -50,6 +49,41 @@
 
 
 .maincontainer {
-    height: 100vh;
+    height: 100vh !important;
     background-color: rgb(244, 242, 238);
+}
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.heading{
+         color: var(--color-text) !important; 
+        font-weight:600;
+        margin: 8px;
+}
+.feedButton{
+    width: 148px !important;
+    height: 32px!important;
+    border-radius: 20px!important;
+    font-size: 14px!important;
+    font-weight: 700!important;
+    text-transform: none !important;
+}
+.button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.para{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: grey;
+    font-size: 16px;   
+}
+.footer{
+   position: absolute;
+   bottom: 0;
 }
